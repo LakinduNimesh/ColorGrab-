@@ -10,11 +10,10 @@ ColorGrab is a web application that allows users to pick colors from an uploaded
 - Copy color values to clipboard
 - Works on both desktop and mobile devices
 
-## Demo
+![Screenshot 2024-05-21 180318](https://github.com/LakinduNimesh/ColorGrab-/assets/149768006/ca5e9d1e-8f81-4000-b250-a24a71e00ed2)
 
-Check out the live demo [here](#).
-
-## Getting Started
+![Screenshot 2024-05-21 180334](https://github.com/LakinduNimesh/ColorGrab-/assets/149768006/646f50c6-21bd-41f7-a573-a0a1e8ea3018)
+tting Started
 
 ### Prerequisites
 
@@ -26,5 +25,5 @@ To run this project, you'll need:
 
 Clone the repository:
 
-```bash
-git clone https://github.com/yourusername/ColorGrab.git
+
+[Get Clone](https://github.com/LakinduNimesh/ColorGrab-)
