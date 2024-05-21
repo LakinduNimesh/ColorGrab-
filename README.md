@@ -13,7 +13,8 @@ ColorGrab is a web application that allows users to pick colors from an uploaded
 ![Screenshot 2024-05-21 180318](https://github.com/LakinduNimesh/ColorGrab-/assets/149768006/ca5e9d1e-8f81-4000-b250-a24a71e00ed2)
 
 ![Screenshot 2024-05-21 180334](https://github.com/LakinduNimesh/ColorGrab-/assets/149768006/646f50c6-21bd-41f7-a573-a0a1e8ea3018)
-tting Started
+
+## Getting Started
 
 ### Prerequisites
 
