@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>ColorGrab</title>
+</head>
+
+<body>
+  <div class="ColorGrab-container">
+    <h2 class="header" align="center"><span>C</span>olorGrab</h2>
+    <div class="image-sec">
+      <img src="https://images.pexels.com/photos/1789968/pexels-photo-1789968.jpeg" alt="image" id="picker-image">
+    </div>
+    <div class="buttons-container">
+      <input type="file" id="upload-file" accept="image/*">
+      <label for="upload-file">Choose an image</label>
+      <button id="color-pickerBtn">Pick Color</button>
+    </div>
+    <div class="colour-result hidden" id="colour-result">
+      <div>
+        <input type="text" id="hex" readonly>
+        <button onclick="copyToClipboard('hex')">
+          <i class="fa-regular fa-copy"></i>
+        </button>
+      </div>
+      <div>
+        <input type="text" id="rgb" readonly>
+        <button onclick="copyToClipboard('rgb')">
+          <i class="fa-regular fa-copy"></i>
+        </button>
+      </div>
+      <div class="picked-color" id="picked-color"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

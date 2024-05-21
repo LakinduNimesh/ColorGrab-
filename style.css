@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+input,
+label,
+button {
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+body{
+  background: #252323;
+  background-image:linear-gradient(rgba(4,9,30,0.8),rgba(4, 9, 30, 0.5)), url(https://images.pexels.com/photos/1789968/pexels-photo-1789968.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.ColorGrab-container{
+  width: 26.25em;
+  padding: 1.5em ;
+  color: #fff;
+  background: rgba(153, 153, 153, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 1.25em;
+  border: 1px solid rgba(255, 255, 255, 0.18) ;
+  
+}
+
+h2 {
+  font-family: 'Poetsen One', sans-serif;
+  font-weight: 300;
+  padding: 0.6em;
+  justify-self: center;
+}
+h2 span{
+  font-family: 'Poetsen One', sans-serif;
+  color:  #ffffff;
+  font-weight: 300;
+}
+
+img{
+  width: 21.875em;
+  display: block;
+  height:  21.875em;
+  object-fit: cover;
+  margin-bottom: 1.625em;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+}
+
+.buttons-container{
+  display: flex;
+  gap: 0.875em;
+}
+
+input[type="file"]{
+  display: none;
+}
+
+label,
+button{
+    display: block;
+    font-size: 1em;
+    background-color: #300a44;
+    color: #fff;
+    text-align: center;
+    padding: 0.5em;
+    border-radius: 1.5em;
+    cursor: pointer;
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.3);
+}
+
+.buttons-container label,
+.buttons-container button {
+  flex: 1;
+}
+
+.colour-result{
+  margin: 1.25em;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.875em;
+}
+
+.colour-result div {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.colour-result input{
+  
+  background-color: #ffffff41;
+  font-size: 13px;
+  color: #0c0c0c;
+  margin: 0.5em;
+  padding: 15px;
+  border: 1px solid #300a44;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.colour-result button{
+  position: absolute;
+  right: 10px;
+  background-color: transparent;
+  color: #300a44;
+  transition: 0.6s;
+}
+.colour-result button:hover{
+  color: #fff;
+}
+
+
+.picked-color {
+  grid-column: 2;
+  grid-row: 1 / 3;
+  border-radius: 1em;
+  border: 1px solid #27272a;
+}
+
+.hidden{
+  display: none;
+}
+
